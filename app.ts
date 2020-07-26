@@ -1,7 +1,7 @@
-import express, { Request, Response } from "express";
+import express from "express";
 import cors from "cors";
 import exphbs from 'express-handlebars';
-import { IndexRoute } from "./routes/index.route";
+import { Routes } from "./app/routes";
 
 /**
  * Core
@@ -21,7 +21,7 @@ app.set('views', __dirname + '/public/views');
 /**
  * Routing
  */
-app.get('/', IndexRoute);
+app.use('/', Routes);
 
 /**
  * Server
