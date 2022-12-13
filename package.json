@@ -20,7 +20,7 @@
   "homepage": "https://github.com/im4aLL/video-chat#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^5.1.0",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.7"
